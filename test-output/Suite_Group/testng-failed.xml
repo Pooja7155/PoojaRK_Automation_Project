@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite_Group]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test_Group(failed)">
+    <groups>
+      <run>
+        <include name="Sanity"/>
+        <exclude name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCases.Login_Page_test1">
+        <methods>
+          <include name="currentURLTest"/>
+          <include name="titleofswaglabsTest"/>
+          <include name="logintoapplicationTest"/>
+          <include name="setup"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- testCases.Login_Page_test1 -->
+      <class name="testCases.Inventory_Page_test2">
+        <methods>
+          <include name="productlableTest"/>
+          <include name="remove2itemsTest"/>
+          <include name="closebrowser"/>
+          <include name="CartPageTest"/>
+          <include name="add6ProductsTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Inventory_Page_test2 -->
+    </classes>
+  </test> <!-- Test_Group(failed) -->
+</suite> <!-- Failed suite [Suite_Group] -->

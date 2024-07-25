@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [login_inventory_cart_suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="testCases.Inventory_Page_test2">
+        <methods>
+          <include name="closebrowser"/>
+          <include name="CartPageTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Inventory_Page_test2 -->
+      <class name="testCases.Cart_Page_test3">
+        <methods>
+          <include name="DescriptionLableTest"/>
+          <include name="closebrowser"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- testCases.Cart_Page_test3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [login_inventory_cart_suite] -->
